@@ -5,4 +5,4 @@
 * Hack: Copy `index.html` to `<root>/dist`
 * Terminal 1: `npm run build`
 * Terminal 2: `npm run server`
-* Access locally hosted version at `localhost:8080A`
+* Access locally hosted version at `localhost:8080`
