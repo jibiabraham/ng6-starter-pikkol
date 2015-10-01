@@ -1,11 +1,12 @@
 import angular from 'npm/angular';
 import uiRouter from 'npm/angular-ui-router';
 import HomeComponent from './home.component';
+import ngMdIcons from 'npm/angular-material-icons';
 import register from 'common/register';
 import './home.scss';
 
 let homeModule = angular.module('home', [
-    uiRouter
+    uiRouter, ngMdIcons
 ])
 
 .config(($stateProvider, $urlRouterProvider) => {
@@ -14,7 +15,7 @@ let homeModule = angular.module('home', [
     $stateProvider
         .state('home', {
             url: '/',
-            template: '<home flex layout="row"></home>'
+            template: '<home flex layout="row" layout-fill></home>'
         });
 });
 

@@ -1,5 +1,20 @@
-home {
-  .home__vendor {
-    width: 100%;
-  }
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white; 
+}
+
+$app-prefix: pl;
+
+.#{$app-prefix} {
+
+	&-toolbar {
+		width: 100%;
+	}
+}
+
+//#FIXME for global
+ng-md-icon {
+  fill: currentColor;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1;
 }
